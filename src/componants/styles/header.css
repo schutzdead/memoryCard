@@ -1,0 +1,34 @@
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.description{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.resume{
+    padding-top: 20px;
+    display: flex;
+    align-items: end;
+    gap: 10px
+}
+
+.score{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bestScore{
+    font-size: 13px;
+    padding-bottom: 3px;
+}

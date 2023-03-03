@@ -1,0 +1,28 @@
+.body{
+    display:flex;
+    column-gap:80px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    width: 1540px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+img{
+    width:180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.legend{
+    text-align: center;
+    padding: 3px;
+    font-weight: 700;
+}
